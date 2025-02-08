@@ -1,13 +1,11 @@
-# Hugo
-title = "My Docs"
-description = "Congrats on setting up a new Doks project!"
-images = ["cover.png"]
+title = "OpenDevStack"
+description = "Develop, Deploy, Run."
 
-# mainSections
-mainSections = ["docs"]
-
-[social]
-  twitter = "getdoks"
+# Footer
+footer = """
+  &copy; OpenDevStack Authors 2025.
+  Documentation distributed under <a href="https://creativecommons.org/licenses/by/4.0/">CC-BY-4.0</a>.
+"""
 
 # Doks (@thulite/doks-core)
 [doks]
@@ -46,7 +44,7 @@ mainSections = ["docs"]
   # Nav
   sectionNav = ["docs"] # ["docs"] (default) or list of sections (e.g. ["docs", "guides"])
   toTopButton = false # false (default) or true
-  breadcrumbTrail = false # false (default) or true
+  breadcrumbTrail = true # false (default) or true
   headlineHash = true # true (default) or false
   scrollSpy = true # true (default) or false
 
@@ -55,18 +53,18 @@ mainSections = ["docs"]
   showMissingLanguages = true # whether or not to show untranslated languages in the language menu; true (default) or false
 
   # Versioning
-  docsVersioning = false # false (default) or true
+  docsVersioning = true # false (default) or true
   docsVersion = "1.0"
 
   # UX
-  headerBar = false # true (default) or false
+  headerBar = true # true (default) or false
   backgroundDots = true # true (default) or false
 
   # Homepage
   sectionFooter = false # false (default) or true
 
   # Blog
-  relatedPosts = false # false (default) or true
+  relatedPosts = true # false (default) or true
   imageList = true # true (default) or false
   imageSingle = true # true (default) or false
 
@@ -74,7 +72,7 @@ mainSections = ["docs"]
   editPage = false # false (default) or true
   lastMod = false # false (default) or true
   repoHost = "GitHub" # GitHub (default), Gitea, GitLab, Bitbucket, or BitbucketServer
-  docsRepo = "https://github.com/h-enk/doks"
+  docsRepo = "https://github.com/opendevstack"
   docsRepoBranch = "main" # main (default), master, or <branch name>
   docsRepoSubPath = "" # "" (none, default) or <sub path>
 
